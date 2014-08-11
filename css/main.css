@@ -18,18 +18,24 @@ p {
 /*------------------ Navbar ----------------------------------*/
 .top-page{
 	padding-bottom: 20px;
+   
+}
+.top-page .container .img{
+    height: 60%;
+    width: 50%;
 }
 .navbar-brand {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
 }
-
 .navbar-nav {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
 }
+
+
 /*------------------ Body ----------------------------------*/
 .div-box{
     margin-bottom: 20px;
@@ -37,6 +43,7 @@ p {
     background: #fff;
     background: rgba(255,255,255,0.9);
 }
+
 .img-border {
     float: none;
     margin: 0 auto 0;
@@ -113,17 +120,22 @@ p {
     .nav>li>a {
         padding: 15px;
     }
+    .top-page{
+        height: 20%;
+        width: 30%;
+    }
     .img-left {
         float: left;
         margin-right: 25px;
     }
 }
 
-
-
-
-
-
+@media (max-width: 760px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+}
 
 
 
